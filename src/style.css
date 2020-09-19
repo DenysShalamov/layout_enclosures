@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container__blue {
+  margin: 20px 20px 40px;
+  max-width: 350px;
+  background-color: #308dc0;
+}
+
+.container__blue,
+.container__yellow,
+.container__gray {
+  padding: 10px;
+  border: 1px solid #812f2d;
+}
+
+.container__yellow {
+  background-color: #ffa500;
+}
+
+.container__gray {
+  background-color: #ddd;
+}
